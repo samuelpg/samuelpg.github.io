@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+background: #ffffff;
+color: #2f2f2f;
+font-family: 'JetBrains Mono', monospace;
+}
+.my_line {
+    height: 3px;
+    width: 100%;
+    margin-top: 30px;
+    background: rgb(0,213,255);
+    background: linear-gradient(151deg, rgba(0,213,255,1) 17%, rgba(139,0,255,1) 100%);
+}
+.separator {
+width: 30%;
+}
+.title {
+margin-top: 100px;
+margin-bottom: 10px;
+}
+.title a {
+color: #91C8E4;
+}
+a:after{
+    display: inline-block;
+    -webkit-transform: scale(1, 1); /* Safari and Chrome */
+    -moz-transform: scale(1, 1); /* Firefox */
+    -ms-transform: scale(1, 1); /* IE 9 */
+    -o-transform: scale(1, 1); /* Opera */
+    transform: scale(1, 1); /* W3C */
+    content: "›";
+    position: relative;
+    margin-left: 2px;
+}
+.title a:hover {
+text-decoration: none;
+font-weight: bold;
+}
+.title hr {
+width: 75%;
+}
+.text-center {
+    text-align: center;
+}
+.summary {
+padding: 20px;
+}
+.summary p {
+font-size: 1.8rem;
+}
+li {
+    font-size: 1.8rem;
+}
+.information-block {
+padding: 20px;
+}
+.information-block .information-title {
+margin-top: 50px;
+}
+.information-block .information-summary {
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.information-block p {
+font-size: 1.8rem;
+}
+
+footer {
+    height: 150px;
+    padding-top: 100px;
+}
